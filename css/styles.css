@@ -12,6 +12,8 @@ https://coolors.co/ddd8b8-b3cbb9-84a9c0-6a66a3-160c1d
 -------------------------------*/
 body {
    color: #160C1D;
+   margin: 0;
+   padding: 0;
 }
 img {
    width: 300px; 
