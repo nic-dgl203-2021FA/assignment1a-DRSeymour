@@ -11,7 +11,7 @@ https://coolors.co/ddd8b8-b3cbb9-84a9c0-6a66a3-160c1d
 /*Global styles
 -------------------------------*/
 body {
-   color: #160c1d;
+   color: #160C1D;
 }
 img {
    width: 300px; 
@@ -23,7 +23,8 @@ img {
 /*Profile
 -------------------------------*/
 header {
-    background: #6a66a3;
+    background: #6A66A3;
+    color: #DDD8B8;
 }
 
 
@@ -53,5 +54,6 @@ header {
 /*Contact Info
 -------------------------------*/
 footer {
-    background: #160C1D;
+    background: #6A66A3;
+    color: #DDD8B8;
 }
