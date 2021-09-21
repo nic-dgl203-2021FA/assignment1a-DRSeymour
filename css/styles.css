@@ -60,6 +60,7 @@ header {
     text-decoration: none;
     padding: 6px;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .projects .btn:hover {
