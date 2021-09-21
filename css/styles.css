@@ -19,6 +19,9 @@ img {
 a {
     color: #84A9C0;
 }
+a:hover {
+    text-decoration: none;
+}
 
 
 
