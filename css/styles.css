@@ -45,6 +45,11 @@ header {
     color: #6A66A3;
     background: #84A9C0;
     text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    }
+.projects a:hover {
+    background: rgb(132, 169, 192, 80%)
 }
 
 
