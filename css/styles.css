@@ -17,7 +17,7 @@ img {
    width: 300px; 
 }
 a {
-    color: #84A9C0;
+    color: #160C1D;
 }
 a:hover {
     text-decoration: none;
@@ -43,12 +43,17 @@ header {
 }
 .projects a {
     color: #6A66A3;
+}
+
+.projects .btn {
+    color: #6A66A3;
     background: #84A9C0;
     text-decoration: none;
-    padding: 8px;
+    padding: 6px;
     border-radius: 5px;
-    }
-.projects a:hover {
+}
+
+.projects .btn:hover {
     background: rgb(132, 169, 192, 80%)
 }
 
