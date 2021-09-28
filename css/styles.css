@@ -36,11 +36,16 @@ a {
 a:hover {
     text-decoration: none;
 }
+h1 {
+    font-size: 85px;
+    line-height: 1rem;
+    }
 h2 {
-    margin: 0;
+    font-size: 45px;
 }
 h1, h2 {
     font-family: 'Birthstone';
+    margin-bottom: .85em;
 }
 
 .content-wrap {
