@@ -72,6 +72,7 @@ h3 {
 header {
     background: #6A66A3;
     color: #DDD8B8;
+    text-align: center;
 }
 
 
@@ -131,6 +132,7 @@ header {
 footer {
     background: #6A66A3;
     color: #DDD8B8;
+    text-align: center;
 }
 .contact-list {
     list-style-type: none;
