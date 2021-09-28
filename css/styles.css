@@ -55,6 +55,9 @@ h1, h2 {
     font-family: 'Birthstone';
     margin-bottom: .85em;
 }
+h3 {
+    margin-top: 0;
+}
 
 .content-wrap {
     width: 800px;
@@ -105,6 +108,7 @@ header {
 .project-item img {
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 
