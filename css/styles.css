@@ -118,6 +118,10 @@ header {
 .work-experience {
     background: #84A9C0;
 }
+.job-title {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
 
 
 
