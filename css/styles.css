@@ -96,8 +96,15 @@ header {
     background: rgb(132, 169, 192, 80%)
 }
 
+.project-item {
+    overflow: hidden;
+    border-bottom: 2px dashed #6A66A3;
+    padding: 25px 0px;
+}
+
 .project-item img {
     float: left;
+    margin-right: 20px;
 }
 
 
