@@ -22,6 +22,10 @@ body {
    color: #160C1D;
    margin: 0;
    padding: 0;
+   font-family: 'Birthstone';
+   font-family: 'Roboto', sans-serif;
+   font-size: 18 px;
+   line-height: 1.25rem;
 }
 img {
    width: 300px; 
@@ -35,6 +39,10 @@ a:hover {
 h2 {
     margin: 0;
 }
+h1, h2 {
+    font-family: 'Birthstone';
+}
+
 .content-wrap {
     width: 800px;
     margin: 0 auto;
