@@ -18,6 +18,14 @@ https://coolors.co/ddd8b8-b3cbb9-84a9c0-6a66a3-160c1d
 
 /*Global styles
 -------------------------------*/
+
+/*--- add this (lines 22-27) to every css file to undo inherited box model floats ---*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
    color: #160C1D;
    margin: 0;
