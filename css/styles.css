@@ -96,6 +96,10 @@ header {
     background: rgb(132, 169, 192, 80%)
 }
 
+.project-item img {
+    float: left;
+}
+
 
 /*Work Experience
 -------------------------------*/
