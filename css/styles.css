@@ -185,9 +185,10 @@ footer {
         float: left;
         margin-right: 20px;
     }
-.job-item {
+
+    .job-title {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
-}
+    }
 }
