@@ -70,7 +70,7 @@ h3 {
 .item-details h3 + p {
     font-style: italic;
 }
-h3 ~ p {
+.item-details h3 ~ p {
     margin: 0;
 }
 
