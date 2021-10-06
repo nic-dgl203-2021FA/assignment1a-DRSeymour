@@ -118,7 +118,8 @@ header {
 .project-item {
     overflow: hidden;
 /*    border-bottom: 2px dashed #6A66A3;
-    padding: 25px 0px;---*/
+    padding: 25px 0px;
+    Moved to global css---*/
 }
 
 .project-item img {
@@ -148,7 +149,7 @@ header {
 /*Education
 -------------------------------*/
 .education {
-    background-image: url(../placeholder_images/joanna-kosinska-unsplash.jpg);
+    background-image: url(../images/joanna-kosinska-unsplash.jpg);
 }
 
 
