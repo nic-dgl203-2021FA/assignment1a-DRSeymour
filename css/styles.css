@@ -150,7 +150,7 @@ header {
 -------------------------------*/
 .education {
     background-image: url(../images/joanna-kosinska-unsplash.jpg);
-    background-size: auto;
+    background-size: cover;
     background-position: top right;
 }
 
