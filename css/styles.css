@@ -26,6 +26,7 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 body {
    color: #160C1D;
    margin: 0;
@@ -34,6 +35,23 @@ body {
    font-family: 'Roboto', sans-serif;
    font-size: 18 px;
    line-height: 1.25rem;
+}/*
+aside {
+   
+}*/
+nav {
+    color: #6A66A3;
+    font-family: 'Birthstone';
+    font-size: 2em;
+    text-align: left;
+    margin: 6px 4px;
+    }
+nav li {
+    padding: 4px;
+    ;
+}
+nav li a:hover {
+    text-decoration: bold;
 }
 img {
    width: 300px; 
