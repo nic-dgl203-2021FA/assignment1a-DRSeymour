@@ -43,8 +43,8 @@ nav ul {
     display: flex;
     width: 99%;
     height: 60px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-family: 'Birthstone';
+    font-size: 2.25em;
     margin: 5px 5px;
     padding: 10px;
     list-style-type: none;
@@ -54,6 +54,7 @@ nav ul {
 nav ul li{ 
     text-align: center;
     width: 25%;
+    padding: 15px;
     
 }
 nav ul li a {
@@ -70,8 +71,14 @@ nav a:hover {
 
 
 img {
-   width: 300px; 
+   width: 300px;
+   border-style: groove;
+   border-width: 15px;
+   border-color: #84A9C0;
+   box-shadow: 10px 12px 10px #DDD8B8;
+   margin-bottom: 25px;
 }
+
 a {
     color: #160C1D;
 }
@@ -240,12 +247,12 @@ footer {
     nav ul {
         display: inline-block;
         position: left;
-        padding-top: 5px;
-        font-size: 1em;
+        font-size: 2em;
     }
     nav ul li {
         width: auto;
         text-align: left;
+        padding: 6px;
     }
     h1 {
         font-size: 75px;
