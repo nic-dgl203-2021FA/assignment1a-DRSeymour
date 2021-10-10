@@ -211,6 +211,7 @@ header {
 footer {
     background: #6A66A3;
     color: #DDD8B8;
+    margin-top: 12px;
 }
 .contact-list {
     list-style-type: none;
