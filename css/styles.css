@@ -132,6 +132,7 @@ h3 {
 header {
     background: #6A66A3;
     color: #DDD8B8;
+    margin-bottom: 12px;
 }
 
 
@@ -141,8 +142,9 @@ header {
 -----------------------------*/
 
 .projects {
-    margin-top: 12px;
+    margin-top: 0px;
     margin-bottom: 12px;
+    padding-top: 4px;
     background: #B3CBB9;
 }
 .projects a {
@@ -199,12 +201,108 @@ header {
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
+    margin-top: 12px;
 }
 .education p {
     width: 55%;
 }
 
+/*Modal #1 
+-------------------------------
+Model #1 css code (credit to and copied from) https://codepen.io/imprakash/pen/GgNMXO 
+  */
+  .box {
+    width: 40%;
+    height: 160px;
+    margin: auto;
+    text-align: center;
+    padding: 95px 0px 8px 0px;
+    background-image: url(../images/cda-modal-image.png);
+    background-size: cover;
+    position: top left;
+    background-clip: padding-box;
+    border: 8px solid #6A66A3;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #DDD8B8;
+  }
+  
+  .button {
+    position: center;
+    font-size: 1.25em;
+    padding: 10px;
+    color: #6A66A3;
+    border: 2px solid #DDD8B8;
+    border-radius: 10px;
+    height: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+    .button:hover {
+    background: #DDD8B8;
+  }
+  
+ .overlay {
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 120px auto;
+    padding: 25px;
+    text-align: center;
+    background: #B3CBB9;
+    border: 10px solid #6A66A3;
+    border-radius: 5px;
+    width: 35%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
 
+  .popup img {
+    width: 300px;
+    position: relative;   
+    border-style: groove;
+    border-width: 10px;
+    border-color: #84A9C0;
+    box-shadow: 5px 6px 5px #DDD8B8;
+  }
+  
+  .popup h1 {
+    margin-top: 0;
+    color: #333;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #6A66A3;
+  }
+  .popup .content {
+    text-align: center;
+    max-height: 30%;
+    overflow: fixed;
+  }
+/*end Modal #1---------------*/
 
 /*Contact Info
 -------------------------------*/
@@ -247,9 +345,11 @@ footer {
     }
 
     .contact-list {
-        display: flex;
-        justify-content: center;
+    display: flex;
+    justify-content: center;
     }
+    
+        
 }
 
 @media screen and (max-width:749px) {
@@ -274,4 +374,16 @@ footer {
     .contact-list a {
         padding: 5px;
     }
+    /*Modal #1 
+-------------------------------
+Model #1 css code (credit to and copied from) https://codepen.io/imprakash/pen/GgNMXO 
+  */
+    .box {width: 80%;
+      }
+    .popup {
+    width: 80%;
+      }
+    .popup img {
+    width: 80%;
+      }
 }
